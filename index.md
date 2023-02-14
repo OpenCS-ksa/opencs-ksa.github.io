@@ -8,4 +8,4 @@ permalink: /
 
 ### Welcome To
 # Open CS Mentoring
-<image src="\assets\images\logo.png"> </image>
+<image src="assets\images\logo.png"> </image>
