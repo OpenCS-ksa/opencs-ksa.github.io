@@ -7,5 +7,5 @@ permalink: /
 ---
 
 ### Welcome To
-# Open CS Mentoring
+# <strong>Open CS Mentoring</strong>
 <image src="\assets\images\logo.png"> </image>
