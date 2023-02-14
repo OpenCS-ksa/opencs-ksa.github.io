@@ -91,11 +91,6 @@ mermaid:
 # Enable or disable heading anchors
 heading_anchors: true
 
-# Aux links for the upper right navigation
-aux_links:
-  "Open CS Github":
-    - "//github.com/ksa-OpenCS/lecture"
-
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: false
 
