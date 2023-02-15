@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Lecture 1
+title: Theme 1
 nav_order: 1
 nav_exclude: false
 ---
-### Open CS Lecture 1
+### Theme 1
 # Basics
+#### python 언어의 기본에 대해 알아봅시다! 
