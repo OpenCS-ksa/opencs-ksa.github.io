@@ -6,4 +6,5 @@ nav_exclude: false
 ---
 ### Theme 1
 # Basics
-#### python 언어의 기본에 대해 알아봅시다! 
+   
+python 언어의 기본에 대해 알아봅시다!  
