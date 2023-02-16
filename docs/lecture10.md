@@ -6,4 +6,4 @@ nav_exclude: false
 ---
 ### Theme 10
 # Loops-3
-#### Python의 For-loop에 대해 더 알아봅시다! 
+#### Python의 For-loop에 대해 더 알아봅시다! ~~

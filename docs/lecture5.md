@@ -6,4 +6,4 @@ nav_exclude: false
 ---
 ### Theme 5
 # Debugging Tips
-#### Python 코드의 디버깅에 대해 알아봅시다! 
+#### Python 코드의 디버깅에 대해 알아봅시다! ~~

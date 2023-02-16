@@ -6,4 +6,4 @@ nav_exclude: false
 ---
 ### Theme 2
 # Functions
-#### Python의 함수에 대해 알아봅시다! 
+#### Python의 함수에 대해 알아봅시다! ~~
