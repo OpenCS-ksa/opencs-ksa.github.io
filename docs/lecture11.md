@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Theme 10
+title: Theme 11
 nav_order: 1
 nav_exclude: false
 ---
