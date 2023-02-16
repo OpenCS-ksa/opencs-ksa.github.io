@@ -6,4 +6,4 @@ nav_exclude: false
 ---
 ### Theme 12
 # Midterm Alt. Assignment
-#### ....!
+#### ...!
