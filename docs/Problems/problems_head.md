@@ -1,10 +1,11 @@
 ---
 layout: default
-title: Theme 0
-parent: Lectures
-nav_order: 1
-nav_exclude: false
+title: Problems
+nav_order: 2
+has_children: true
+permalink: docs/Problems
 ---
-### Theme 0
-# Introduction.
-안녕하세요! Open CS 멘토 22-101 장서현, 22-075 유태우 입니다.    
+
+# Problems
+{: .no_toc }
+{: .fs-6 .fw-300 }
