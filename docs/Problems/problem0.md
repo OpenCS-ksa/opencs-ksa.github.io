@@ -7,7 +7,7 @@ nav_exclude: false
 ---
 
 # Problem 0
-### Theme 0 Problems
+Theme 0 Problems
 
 - - -           
 ## Problems
@@ -16,7 +16,7 @@ nav_exclude: false
 {:toc}
 - - -           
 
-## Q1. TITLE
+### Q1. TITLE
 Description         
 
 Input Sample        
@@ -30,7 +30,7 @@ OUTPUTS
 
 Auto Grader
 
-## Q2. TITLE
+### Q2. TITLE
 Description         
 
 Input Sample        
