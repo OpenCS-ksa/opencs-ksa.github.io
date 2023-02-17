@@ -6,6 +6,7 @@ nav_exclude: false
 permalink: docs/coffee
 ---
 # Open CS 멘토들에게 커피를 사주세요
+            
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2370924200451399"
      crossorigin="anonymous"></script>
 <!-- Horizontal Ads -->
