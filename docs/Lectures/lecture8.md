@@ -2,7 +2,7 @@
 layout: default
 title: Theme 8
 parent: Lectures
-nav_order: 9
+nav_order: 8
 nav_exclude: false
 ---
 ### Theme 8

@@ -2,7 +2,7 @@
 layout: default
 title: Theme 6
 parent: Lectures
-nav_order: 7
+nav_order: 6
 nav_exclude: false
 ---
 ### Theme 6
