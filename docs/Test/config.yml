@@ -1,5 +1,0 @@
-gems:
-  - jekyll
-  - github-pages
-plugins:
-  - jekyll-pygments
