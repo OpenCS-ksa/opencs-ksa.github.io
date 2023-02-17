@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme 0 Problems
-nav_order: 2
+nav_order: 0
 parent: Problems
 has_children: true
 permalink: docs/Problems/Theme0
