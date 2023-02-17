@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme 8
-nav_order: 1
+nav_order: 9
 nav_exclude: false
 ---
 ### Theme 8
