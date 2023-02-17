@@ -3,6 +3,7 @@ layout: default
 title: Home
 nav_order: 0
 description: "Open CS Mentoring Lecture Website"
+nav_exclude: true
 permalink: /
 ---
 
