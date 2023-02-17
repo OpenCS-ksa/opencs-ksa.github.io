@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Theme 0
+title: Theme 0 Problems
 nav_order: 2
 parent: Problems
 has_children: true

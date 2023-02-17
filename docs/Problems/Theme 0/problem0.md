@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Problem 0
-parent: Problems/Theme 0
+parent: Theme 0 Problems
 nav_order: 1
 nav_exclude: false
 ---
