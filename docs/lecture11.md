@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme 10
-nav_order: 1
+nav_order: 12
 nav_exclude: false
 ---
 ### Theme 10

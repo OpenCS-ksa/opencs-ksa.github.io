@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Theme 4
-nav_order: 1
+nav_order: 5
 nav_exclude: false
 ---
 ### Theme 4
