@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Problem 0
-nav_order: 0
 parent: Problems
+nav_order: 0
+nav_exclude: false
 ---
 
 # Problem 0
