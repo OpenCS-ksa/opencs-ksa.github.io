@@ -11,7 +11,6 @@ permalink: /
 <image src="assets\images\logo.png"> </image>
 
 - - -       
-안녕하세요 여러분!
 # 저희는 여러분들에게 정보과학1 Pass를 선물해줄 Open CS 멘토링입니다!       
 
 ## 1. Open CS 왜 필요한가요?        
