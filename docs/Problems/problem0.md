@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Problem 0
-nav_order: 1
+nav_order: 0
 parent: Problems
-permalink: docs/Problems
 ---
 
 # Problem 0
