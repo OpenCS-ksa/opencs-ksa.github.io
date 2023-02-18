@@ -45,8 +45,7 @@ nav_exclude: false
 하지만 코드 편집기를 활용하면 훨씬 편하게 코드를 짤 수 있습니다.        
 (메모장으로 코딩하는 사람을 보면 그 사람은 심하게 이상한 사람이 분명하니 멀리하는게 맞습니다.)      
 
-{: .highlight } 
-> 아래 코드 편집기들을 보고 원하는걸 선택하시면 됩니다.           
+아래 코드 편집기들을 보고 원하는걸 선택하시면 됩니다.           
 
 ### 1. Wing IDE
 <img src = "https://wingware.com/images/screenshots/wing7-screenshot-classic-small.jpg" width = "80%">
