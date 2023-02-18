@@ -7,6 +7,7 @@ nav_exclude: false
 ---
 
 # Problem 0
+{: .no_toc }
 Theme 0 Problems
 
 - - -           
