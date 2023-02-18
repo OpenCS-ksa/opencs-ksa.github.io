@@ -7,6 +7,7 @@ nav_exclude: false
 ---
 
 # Problem 1
+{: .no_toc }
 Theme 1 Problems
 
 - - -           
