@@ -21,7 +21,7 @@ nav_exclude: false
 이 가장 중요합니다.     
 
 ## Python
-<img src = "https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" width = "70%"></img>
+<img src = "https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" width = "50%">
 파이썬은 간결하면서도 다양한 기능을 제공하는 프로그래밍 언어입니다.         
 그런 만큼 다양한 자료들이 인터넷에 떠돌고 있어서        
 굉장히 활용성이 높은 언어입니다.        
@@ -49,7 +49,7 @@ nav_exclude: false
 > 아래 코드 편집기들을 보고 원하는걸 선택하시면 됩니다.           
 
 ### 1. Wing IDE
-<img src = "https://wingware.com/images/screenshots/wing7-screenshot-classic-small.jpg" width = "50%"></img>
+<img src = "https://wingware.com/images/screenshots/wing7-screenshot-classic-small.jpg" width = "80%">
 
 > 학교에서 사용하길 권장하는 IDE입니다.            
 > 나름 자동 완성도 지원하고, 디버깅 기능도 나쁘지 않습니다.          
@@ -63,7 +63,7 @@ nav_exclude: false
 [다운로드 사이트](https://wingware.com/downloads/wing-101){: .btn }
 
 ### 2. Visual Studio Code (VSC)
-<img src = "https://code.visualstudio.com/assets/docs/languages/typescript/overview.png" width = "50%"></img>
+<img src = "https://code.visualstudio.com/assets/docs/languages/typescript/overview.png" width = "80%">
 
 > Microsoft에서 제작한 코드 편집기로, 가벼우면서도 기능이 강력하다는 것이 특징입니다.      
 > 이 웹사이트 역시 VSC를 활용해 제작되었으며, 많은 사람들이 파이썬 코드를 작성하는데에 애용하는 편집기 입니다.        
@@ -77,7 +77,7 @@ nav_exclude: false
 [다운로드 사이트](https://code.visualstudio.com/download){: .btn }
 
 ### 3. Pycharm
-<img src = "https://www.jetbrains.com/pycharm/img/screenshots/complexLook@2x.jpg" width = "50%"></img>
+<img src = "https://www.jetbrains.com/pycharm/img/screenshots/complexLook@2x.jpg" width = "80%">
 
 > Jetbrain에서 제작한 파이썬 특화 IDE로 전문적인 파이썬 개발에 있어서 가장 강력한 편집기입니다.       
 > 높은 수준의 지능화된 자동 완성 기능을 제공하며, 디버깅 기능 역시 매우 탁월합니다.       
@@ -93,7 +93,7 @@ nav_exclude: false
 
 {: .note } 
 > 세부적인 사용 방법은 멘토링 및 멘토의 설명을 참고하거나,          
-> 또는 <a href = "google.com">이 친구</a> 또는 <a href = "https://chat.openai.com/">이 친구</a>에게 물어봐주세요.
+> 또는 <a href = "https://google.com">이 친구</a> 또는 <a href = "https://chat.openai.com/">이 친구</a>에게 물어봐주세요.
 
 ## 파이썬 파일 실행시키기
 파이썬 파일은 `파일명.py`의 형태이며, 이를 파이썬 코드 편집기에서 작성하고, 실행할 수 있습니다.     
