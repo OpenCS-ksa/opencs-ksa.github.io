@@ -139,7 +139,7 @@ callouts:
     color: green
   summary:
     title: 요약
-    color: yellow
+    color: purple
   note:
     title: Note
     color: grey-dk
