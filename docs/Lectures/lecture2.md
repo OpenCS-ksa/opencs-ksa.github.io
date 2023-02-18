@@ -203,7 +203,7 @@ import math
 > - 반올림 : `y = math.round(x)`            
 > <a href = "https://docs.python.org/ko/3/library/math.html">[추가 내용]</a>
 
-math 모듈은 아니지만 알아두면 좋은 연산자
+math 모듈은 아니지만 알아두면 좋은 함수 형태의 연산자
 > - 절댓값 : `y = abs(x)`
 
 THE END
