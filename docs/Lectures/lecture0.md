@@ -98,7 +98,7 @@ nav_exclude: false
 파이썬 파일은 `파일명.py`의 형태이며, 이를 파이썬 코드 편집기에서 작성하고, 실행할 수 있습니다.     
 
 우선 아래 버튼을 눌러 파일을 다운로드 받아 봅시다.      
-[test.py](https://www.jetbrains.com/ko-kr/pycharm/){: .btn }
+[test.py](https://drive.google.com/uc?export=download&id=135cqrScDxisV9DgdYDQgdM3AA7thevW-){: .btn }
 
 설치한 파이썬 코드 편집기 (Wing IDE or VSC or Pycharm or ...)를 실행시키고          
 위에서 다운로드 받은 파일을 열어봅시다.         
