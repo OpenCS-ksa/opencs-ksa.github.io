@@ -22,6 +22,7 @@ nav_exclude: false
 
 ## Python
 <img src = "https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" width = "50%">
+
 파이썬은 간결하면서도 다양한 기능을 제공하는 프로그래밍 언어입니다.         
 그런 만큼 다양한 자료들이 인터넷에 떠돌고 있어서        
 굉장히 활용성이 높은 언어입니다.        
