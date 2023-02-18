@@ -20,7 +20,7 @@ Theme 0 Problems
 Create a new python file and write the following code.            
 And run the python source code.         
 ```python
-print("Hello World")
+print("Hello World!")
 ```
 
 Input Sample        
@@ -28,7 +28,7 @@ Input Sample
 ```         
 Output Sample
 ```
-Hello World
+Hello World!
 ```         
 
 Auto Grader
