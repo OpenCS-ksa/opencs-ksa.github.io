@@ -8,7 +8,12 @@ nav_exclude: false
 ### Theme 0
 # Introduction.
 
-- - -
+- - -         
+## Contents
+{: .no_toc .text-delta }
+1. TOC
+{:toc}
+- - -     
 
 ## CS1
 정보 과학 1은 그냥 프로그래밍을 하는 방법을 배우는 과목입니다.      
@@ -126,7 +131,7 @@ func()
 
 이제 이 코드를 실행시켜 봅시다.         
 소스코드 편집기 위쪽을 보면 삼각형 모양의 실행 표시가 있을 것 입니다.  
-         
+
 {: .note }
 > 아래 단축키를 이용하면 코드를 쉽게 실행할 수 있습니다.            
 > - Wing IDE : F5
