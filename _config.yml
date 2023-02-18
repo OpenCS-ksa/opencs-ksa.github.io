@@ -133,18 +133,18 @@ color_scheme: light
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: yellow
-  important:
-    title: Important
     color: blue
-  new:
-    title: New
+  tip:
+    title: Tip!!
     color: green
+  summary:
+    title: 요약
+    color: yellow
   note:
     title: Note
     color: purple
   warning:
-    title: Warning
+    title: 주의!
     color: red
 
 # Google Analytics Tracking (optional)
