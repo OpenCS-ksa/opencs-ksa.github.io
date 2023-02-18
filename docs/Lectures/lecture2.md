@@ -65,7 +65,6 @@ f()
 {: .warning}
 함수 내부의 내용 (`return` 포함)은 무조건 함수의 정의 부분 (`def function_name():`) 보다            
 **한 번 들여써야** 합니다. (tab 키로 들여쓸 수 있습니다.)     
-
 ```python
 def f():
     <함수 내용1>
