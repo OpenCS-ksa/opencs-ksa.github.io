@@ -24,7 +24,8 @@ nav_exclude: false
 > 결과적으로        
 > 1. 파이썬 문법을 제대로 아는 것       
 > 2. 문제를 여러번 풀어보면서 감을 익히는것        
-이 가장 중요합니다.     
+>           
+> 이 가장 중요합니다.     
 
 ## Python
 
@@ -41,13 +42,15 @@ nav_exclude: false
 추가적인 정보가 궁금하다면 <a href = "https://ko.wikipedia.org/wiki/%ED%8C%8C%EC%9D%B4%EC%8D%AC">이 웹사이트</a>를 참고하세요.
 
 ## Python 설치
-이건 정보 시간에 충분히 설치 방법을 도와주니 깊게 설명하지는 않겠습니다.            
-1. <a href = "https://www.python.org/">Python 공식 웹사이트</a>에서 원하는 버전의 파이썬 설치 파일을 다운로드 받습니다. 
+이건 정보 시간에 충분히 설치를 도와주니 깊게 설명하지는 않겠습니다.            
+1. <a href = "https://www.python.org/">Python 공식 웹사이트</a>에서 원하는 버전의 파이썬 설치 파일을 다운로드 받습니다.             
 (학교에서는 Python 3.7.0 버전의 사용을 권장합니다.)
-2. 설치 파일을 실행시켜 설치를 진행합니다.
-{: .note} 설치 시 Add Python to PATH 항목을 **반드시** 선택하시길 바랍니다. 또한, Customize installation을 선택하여 모든 Optional Features를 다운로드 받습니다.
+2. 설치 파일을 실행시켜 설치를 진행합니다.          
+설치 시 Add Python to PATH 항목을 **반드시** 선택하시길 바랍니다. 또한, Customize installation을 선택하여 모든 Optional Features를 다운로드 받습니다.
 3. Pillow 5.2.0 이미지 라이브러리를 설치합니다.
-4. Robot을 사용하기 위한 설정을 합니다. 하지만 3번과 4번 내용은 중요하지도 않고 정보 시간에 충분히 도와줄 것이니 걱정하지 않으셔도 됩니다.
+4. Robot을 사용하기 위한 설정을 합니다.             
+
+하지만 3번과 4번 내용은 중요하지도 않고 정보 시간에 충분히 도와줄 것이니 걱정하지 않으셔도 됩니다.
 
 {: .note}
 도움이 필요하면 언제든지 멘토한테 연락주세요!!
@@ -107,13 +110,13 @@ nav_exclude: false
 
 {: .note } 
 > 세부적인 사용 방법은 멘토링 및 멘토의 설명을 참고하거나,          
-> 또는 <a href = "https://google.com">이 친구</a> 또는 <a href = "https://chat.openai.com/">이 친구</a>에게 물어봐주세요.
+> <a href = "https://google.com">이 친구</a> 또는 <a href = "https://chat.openai.com/">이 친구</a>에게 물어봐주세요.
 
 ## 파이썬 파일 실행시키기
 파이썬 파일은 `파일명.py`의 형태이며, 이를 파이썬 코드 편집기에서 작성하고, 실행할 수 있습니다.     
 
 우선 아래 버튼을 눌러 파일을 다운로드 받아 봅시다.      
-[test.py](https://drive.google.com/uc?export=download&id=135cqrScDxisV9DgdYDQgdM3AA7thevW-){: .btn }
+[test.py](https://drive.google.com/uc?export=download&id=1DUHUwOCXWSKwvZAwWqs19CjerXI23Mx7){: .btn }
 
 설치한 파이썬 코드 편집기 (Wing IDE or VSC or Pycharm or ...)를 실행시키고          
 위에서 다운로드 받은 파일을 열어봅시다.         
@@ -121,14 +124,13 @@ nav_exclude: false
 그러면 아마 여러분들의 화면에는 아래와 같은 코드가 작성된 파일이 열릴 것 입니다.            
 ```python
 # Open CS Mentoring
-# Testing Development Environment
+# Developing Environment Test
 
 def func():
     print ("Test")
     a = 1
     b = 2
     print (a + b)
-    return
 
 func()
 ```
