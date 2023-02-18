@@ -16,30 +16,18 @@ Theme 0 Problems
 {:toc}
 - - -           
 
-## Q1. TITLE
-Description         
+## Q1. Hello World
+Create a new python file and write the following code.            
+And run the python source code.         
+```python
+print("Hello World")
 
 Input Sample        
 ```
-INPUTS
 ```         
 Output Sample
 ```
-OUTPUTS
-```         
-
-Auto Grader
-
-## Q2. TITLE
-Description         
-
-Input Sample        
-```
-INPUTS
-```         
-Output Sample
-```
-OUTPUTS
+Hello World
 ```         
 
 Auto Grader

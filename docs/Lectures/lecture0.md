@@ -45,44 +45,93 @@ nav_exclude: false
 하지만 코드 편집기를 활용하면 훨씬 편하게 코드를 짤 수 있습니다.        
 (메모장으로 코딩하는 사람을 보면 그 사람은 심하게 이상한 사람이 분명하니 멀리하는게 맞습니다.)      
 
-아래 코드 편집기들을 보고 원하는걸 선택하시면 됩니다.           
+{: .highlight } 
+> 아래 코드 편집기들을 보고 원하는걸 선택하시면 됩니다.           
 
 ### 1. Wing IDE
 <img src = "https://wingware.com/images/screenshots/wing7-screenshot-classic-small.jpg" width = "50%"></img>
+
 > 학교에서 사용하길 권장하는 IDE입니다.            
 > 나름 자동 완성도 지원하고, 디버깅 기능도 나쁘지 않습니다.          
 > 하지만 자동 완성 기능을 쓸 때 마다 키를 눌러야 한다는 점,        
 > 마지막으로 UI 및 코드 하이라이트가 많은 학생들의 의견에 따르면 별로라는 점이 단점입니다.        
 
-학교에서 권장하는 만큼 안정성을 원한다면 Wing IDE를 쓰셔도 좋지만,      
-코드를 작성하는데 있어서 그리 좋은 편집기는 아닙니다.       
+{: .highlight }
+> 학교에서 권장하는 만큼 안정성을 원한다면 Wing IDE를 쓰셔도 좋지만,      
+> 코드를 작성하는데 있어서 그리 좋은 편집기는 아닙니다.       
 
 [다운로드 사이트](https://wingware.com/downloads/wing-101){: .btn }
 
 ### 2. Visual Studio Code (VSC)
 <img src = "https://code.visualstudio.com/assets/docs/languages/typescript/overview.png" width = "50%"></img>
+
 > Microsoft에서 제작한 코드 편집기로, 가벼우면서도 기능이 강력하다는 것이 특징입니다.      
 > 이 웹사이트 역시 VSC를 활용해 제작되었으며, 많은 사람들이 파이썬 코드를 작성하는데에 애용하는 편집기 입니다.        
 > 우수한 자동 완성 기능을 제공하고, 코드 하이라이트 및 UI가 꽤 직관적입니다.      
 > 디버깅 기능 역시 나쁘지 않습니다.       
 
-정보 전공이든 정보 전공이 아니든 가볍게 사용하기 좋으며,        
-Open CS 멘토링에서 가장 추천하는 편집기 입니다.     
+{: .highlight }
+> 정보 전공이든 정보 전공이 아니든 가볍게 사용하기 좋으며,        
+> Open CS 멘토링에서 가장 추천하는 편집기 입니다.     
 
 [다운로드 사이트](https://code.visualstudio.com/download){: .btn }
 
 ### 3. Pycharm
 <img src = "https://www.jetbrains.com/pycharm/img/screenshots/complexLook@2x.jpg" width = "50%"></img>
+
 > Jetbrain에서 제작한 파이썬 특화 IDE로 전문적인 파이썬 개발에 있어서 가장 강력한 편집기입니다.       
 > 높은 수준의 지능화된 자동 완성 기능을 제공하며, 디버깅 기능 역시 매우 탁월합니다.       
 > 앞으로 파이썬을 자주 활용하게 된다면 아마도 가장 사용하기 좋은 편집기 일 것입니다.      
 > 다만, 많은 유용한 기능을 제공하는 만큼 프로그램 자체가 무겁다는 것이 단점입니다.        
 > 켜지거나 중간중간 파일을 분석하는 과정에서 컴퓨터의 성능이 부족하다면 쾌적하게 이용하기 힘들 수 있습니다.       
 
-입문자에게는 사용하기 좀 번거로울 수 있습니다.      
-다만, 앞으로 정보를 전공할 예정이라면 한 번 쯤은 활용해볼 만한 IDE 입니다.      
+{: .highlight }
+> 입문자에게는 사용하기 좀 번거로울 수 있습니다.      
+> 다만, 앞으로 정보를 전공할 예정이라면 한 번 쯤은 활용해볼 만한 IDE 입니다.      
 
 [다운로드 사이트](https://www.jetbrains.com/ko-kr/pycharm/){: .btn }
 
-> 세부적인 사용 방법은 멘토링 및 멘토의 설명을 참고하거나,        
+{: .note } 
+> 세부적인 사용 방법은 멘토링 및 멘토의 설명을 참고하거나,          
 > 또는 <a href = "google.com">이 친구</a> 또는 <a href = "https://chat.openai.com/">이 친구</a>에게 물어봐주세요.
+
+## 파이썬 파일 실행시키기
+파이썬 파일은 `파일명.py`의 형태이며, 이를 파이썬 코드 편집기에서 작성하고, 실행할 수 있습니다.     
+
+우선 아래 버튼을 눌러 파일을 다운로드 받아 봅시다.      
+[test.py](https://www.jetbrains.com/ko-kr/pycharm/){: .btn }
+
+설치한 파이썬 코드 편집기 (Wing IDE or VSC or Pycharm or ...)를 실행시키고          
+위에서 다운로드 받은 파일을 열어봅시다.         
+(대부분 File > Open 을 클릭하거나, 파일을 드레그해서 코드 편집기 화면 위로 올리거나, 혹은 단순히 파일을 더블 클릭 해서 열 수 있습니다.)         
+그러면 아마 여러분들의 화면에는 아래와 같은 코드가 작성된 파일이 열릴 것 입니다.            
+```python
+# Open CS Mentoring
+# Testing Development Environment
+
+def func():
+    print ("Test")
+    a = 1
+    b = 2
+    print (a + b)
+    return
+
+func()
+```
+
+이제 이 코드를 실행시켜 봅시다.         
+소스코드 편집기 위쪽을 보면 삼각형 모양의 실행 표시가 있을 것 입니다.           
+{: .코드 실행 단축키}
+> 아래 단축키를 이용하면 코드를 쉽게 실행할 수 있습니다.            
+> - Wing IDE : F5
+> - VSC : Ctrl + F5
+> - Pycharm : Ctrl + Shift + F10
+
+코드를 실행시키면 아래 콘솔창 (터미널, Python Shell 등으로 표기)에
+```
+Test
+3
+```
+이렇게 출력되는 것을 확인할 수 있습니다.
+
+우리는 이제 파이썬 코드를 실행할 수 있습니다.
