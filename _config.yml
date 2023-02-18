@@ -142,7 +142,7 @@ callouts:
     color: yellow
   note:
     title: Note
-    color: grey-lt
+    color: grey-dk
   warning:
     title: 주의!
     color: red
