@@ -7,7 +7,7 @@ nav_exclude: false
 ---
 ### Theme 0
 {: .no_toc }
-# Introduction.
+# Introduction
 {: .no_toc }
 - - -         
 ## Contents
