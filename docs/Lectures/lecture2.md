@@ -193,7 +193,7 @@ import math
 {: .note}
 모듈은 어떤 기능들 (함수, class 객체 등)을 정리하여 모아둔 것을 의미합니다.         
 
-> math가 제공하는 연산자          
+> math가 제공하는 함수 형태의 연산자          
 > - 제곱근 : `y = math.sqrt(x)`
 > - 삼각 함수 : `y = math.sin(x)`, `y = math.cos(x)`, `y = math.tan(x)` 등 (역삼각함수도 지원)
 > - 자연 로그 : `y = math.log(x)`
