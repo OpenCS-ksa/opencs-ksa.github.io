@@ -6,7 +6,7 @@ nav_exclude: false
 permalink: docs/coffee
 ---
 ### 만약에 멘토링이 도움되었다면..
-# Open CS 멘토들에게 커피 한 잔 사주세요..!
+## Open CS 멘토들에게 커피 한 잔 사주세요..!
 
 [커피 사주기](https://toss.me/opencs){: .btn }
 [커피 사주기](https://toss.me/opencs){: .btn }
