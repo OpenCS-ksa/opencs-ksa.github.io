@@ -138,14 +138,14 @@ list (9주차 내용), class 객체 (CS2 내용), dict, set 같은 변수였다�
 이 체계는 **int, float, str 등은 Call By Value**,           
 **list, class 객체 등은 Call By Reference** 체계를 사용합니다.          
 
-1. Call By Value            
+1. **Call By Value**            
 이 방식은 매개 변수에 값을 전달 할 때            
 **오직 그 값만 전달합니다.**        
 즉, 위 코드에서는 a를 전달한게 아닌, a에 들어있는 값만 전달해서         
 그 값을 그대로 x에 넣고 x값을 바꾼겁니다.           
 x와 a는 독립적이니 결론적으로 a는 바뀌지 않습니다.      
 
-2. Call By Reference            
+2. **Call By Reference**            
 이 방식은 매개 변수에 값을 전달 할 때            
 **그 변수 자체를 전달합니다.**        
 즉, 위 같은 상황에서는 a라는 변수로 x를 통째로 치환해버렸다고 생각하면 편합니다.         
