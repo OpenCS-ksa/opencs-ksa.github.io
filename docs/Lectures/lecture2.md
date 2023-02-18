@@ -189,6 +189,7 @@ import math
 > - 내림 : `y = math.floor(x)`
 > - 올림 : `y = math.ceil(x)`
 > - 반올림 : `y = math.round(x)`
+> <a href = "https://docs.python.org/ko/3/library/math.html">[추가 내용]</a>
 
 math 모듈은 아니지만 알아두면 좋은 연산자
 > - 절댓값 : `y = abs(x)`
