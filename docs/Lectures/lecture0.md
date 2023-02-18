@@ -21,6 +21,7 @@ nav_exclude: false
 이 가장 중요합니다.     
 
 ## Python
+
 <img src = "https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.svg" width = "50%">
 
 파이썬은 간결하면서도 다양한 기능을 제공하는 프로그래밍 언어입니다.         
@@ -50,6 +51,7 @@ nav_exclude: false
 아래 코드 편집기들을 보고 원하는걸 선택하시면 됩니다.           
 
 ### 1. Wing IDE
+
 <img src = "https://wingware.com/images/screenshots/wing7-screenshot-classic-small.jpg" width = "80%">
 
 > 학교에서 사용하길 권장하는 IDE입니다.            
@@ -64,6 +66,7 @@ nav_exclude: false
 [다운로드 사이트](https://wingware.com/downloads/wing-101){: .btn }
 
 ### 2. Visual Studio Code (VSC)
+
 <img src = "https://code.visualstudio.com/assets/docs/languages/typescript/overview.png" width = "80%">
 
 > Microsoft에서 제작한 코드 편집기로, 가벼우면서도 기능이 강력하다는 것이 특징입니다.      
@@ -78,6 +81,7 @@ nav_exclude: false
 [다운로드 사이트](https://code.visualstudio.com/download){: .btn }
 
 ### 3. Pycharm
+
 <img src = "https://www.jetbrains.com/pycharm/img/screenshots/complexLook@2x.jpg" width = "80%">
 
 > Jetbrain에서 제작한 파이썬 특화 IDE로 전문적인 파이썬 개발에 있어서 가장 강력한 편집기입니다.       
