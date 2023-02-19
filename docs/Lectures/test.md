@@ -13,7 +13,7 @@ function Code() {
 }
 </script>
 
-<input id='code'/>
+<textarea id='code' name="code" rows="8" cols="30"style="background-color:#34333d">
 
 <button onclick="Code()">Run</button>
 
