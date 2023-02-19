@@ -9,11 +9,13 @@ nav_exclude: false
 <script>
 function Code() {
     const code = document.getElementById('code').value;
-    document.getElementById("result").innerText = name;
+    document.getElementById("print").innerText = code;
+    document.getElementById("result").innerText = code;
 }
 </script>
 
 <input id='code' onkeyup='Code()'/>
+<div id='print'></div>
 
 <py-script id = "result" output="out">
 </py-script>
