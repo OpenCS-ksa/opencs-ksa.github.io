@@ -9,7 +9,6 @@ nav_exclude: false
 <script>
 function Code() {
     const code = document.getElementById('code').value;
-    document.getElementById("print").innerText = code;
     document.getElementById("result").innerHTML = `<py-script output="out">` + code + `</py-script>`;
 }
 </script>
