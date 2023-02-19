@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Theme 3. Condition Statement
+title: Theme 3. Condition
 parent: Lectures
 nav_order: 3
 nav_exclude: false
@@ -198,5 +198,5 @@ if (a):
 
 굳이 왜 이렇게 해야하나 하실 수도 있지만,           
 만약 이것이 익숙하진다면 훨씬 간단하면서도 직관적으로 코드를 짤 수 있습니다.            
-            
+
 THE END
