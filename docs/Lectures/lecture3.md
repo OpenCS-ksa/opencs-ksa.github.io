@@ -187,12 +187,12 @@ else
 
 따라서 아래 두 코드는 서로 같은 코드입니다.         
 ```python
-a = 0
+a = 1
 if (a != 0):
     print ("a is True")
 ```
 ```python
-a = 0
+a = 1
 if (a):
     print ("a is True")
 ```
