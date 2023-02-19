@@ -10,7 +10,7 @@ nav_exclude: false
 function Code() {
     const code = document.getElementById('code').value;
     document.getElementById("print").innerText = code;
-    document.getElementById("result").innerText = `<py-script output="out">` + code + `</py-script>`;
+    document.getElementById("result").innerHTML = `<py-script output="out">` + code + `</py-script>`;
 }
 </script>
 
