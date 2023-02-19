@@ -6,6 +6,11 @@ nav_order: 4
 nav_exclude: false
 ---
 
+<head>
+<link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+<script defer src="https://pyscript.net/unstable/pyscript.js"></script>
+</head>
+
 <script>
 function Code() {
     const code = document.getElementById('code').value;
