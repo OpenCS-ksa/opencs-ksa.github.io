@@ -14,8 +14,9 @@ function Code() {
 }
 </script>
 
-<input id='code' onkeyup='Code()'/>
-<div id='print'></div>
+<input id='code'/>
+
+<button onclick="Code()">Run</button>
 
 <div id='result'></div>
 
