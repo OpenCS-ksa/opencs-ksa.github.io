@@ -139,7 +139,7 @@ callouts:
     color: green
   note:
     title: Remark
-    color: grey-dk
+    color: grey
   warning:
     title: 주의!
     color: red
