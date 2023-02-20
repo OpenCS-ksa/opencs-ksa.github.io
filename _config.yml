@@ -133,16 +133,13 @@ color_scheme: dark
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: blue
+    color: grey-lt
   tip:
     title: Tip!!
     color: green
-  summary:
-    title: 요약
-    color: purple
   note:
     title: Note
-    color: grey-lt
+    color: grey-dk
   warning:
     title: 주의!
     color: red
