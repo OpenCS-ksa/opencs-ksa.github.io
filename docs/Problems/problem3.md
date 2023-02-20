@@ -55,7 +55,7 @@ Write a function <U>isLeapYear</U>
 참고로 윤년은 연도가 4의 배수이면서 100의 배수가 아니거나 400의 배수인 해이다.          
 
 ```python
-def discriminant(a, b, c)
+def isLeapYear(a, b, c)
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -90,9 +90,9 @@ def isTriangle(a, b, c)
     # ADD ADDITIONAL CODE HERE!
     return
 
-print(triangle(3, 4, 5))    # 1
-print(triangle(2, 10, 7))   # 0
-print(triangle(8, 4 ,4))    # 0
+print(isTriangle(3, 4, 5))    # 1
+print(isTriangle(2, 10, 7))   # 0
+print(isTriangle(8, 4 ,4))    # 0
 ```     
 
 ## Q6. Triangle (Hard)
@@ -132,12 +132,12 @@ and sizes of squares are same (l x l size)
 > return value : the area of the intersection of the three squares       
 
 ```python
-def intersection(x1, y1, r1, x2, y2, r2)
+def area(x1, y1, r1, x2, y2, r2)
     # ADD ADDITIONAL CODE HERE!
     return
 
-print(intersection(0, 0, 3, 2, 3, 2))    # 1
-print(intersection(1, 3, 2, 4, 0, 1))    # 0
+print(area(0, 0, 3, 2, 3, 2))    # 1
+print(area(1, 3, 2, 4, 0, 1))    # 0
 ```     
 
 ## Q9. Three Dices (Hard)
