@@ -112,8 +112,7 @@ Write a function <U>oddSum</U>:
 > input parameter : five positive integers x1, x2, x3, x4, x5          
 > return value : sum of the odd numbers         
 
-{: .warning}
-Do not use condition statements or other advanced concepts           
++ Do not use condition statements or other advanced concepts           
 조건문 및 다른 상위 개념 없이 푸시오         
 
 ```python
@@ -132,12 +131,10 @@ Write a function <U>round</U>:
 > return value : number n rounded to the kth decimal place     
 (k번째 자리에서 반올림 된 숫자 n)           
 
-{: .warning}
-Do not use condition statements or other advanced concepts           
++ Do not use condition statements or other advanced concepts           
 조건문 및 다른 상위 개념 없이 푸시오        
 
-{: .warning}
-가능하다면 math.round()를 사용하지 않고 풀어보세요
++ 가능하다면 math.round()를 사용하지 않고 풀어보세요
 
 ```python
 def round(n, k)
