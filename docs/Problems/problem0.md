@@ -24,12 +24,5 @@ And run the python source code.
 print("Hello World!")
 ```
 
-Input Sample        
 ```
-```         
-Output Sample
 ```
-Hello World!
-```         
-
-Auto Grader
