@@ -2,7 +2,7 @@
 layout: default
 title: Problem 2
 parent: Problems
-nav_order: 0
+nav_order: 2
 nav_exclude: false
 ---
 
