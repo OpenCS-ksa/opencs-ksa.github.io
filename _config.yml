@@ -133,7 +133,7 @@ color_scheme: dark
 callouts_level: quiet # or loud
 callouts:
   highlight:
-    color: grey-lt
+    color: grey
   tip:
     title: Tip!!
     color: green
