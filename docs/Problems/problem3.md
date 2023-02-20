@@ -110,7 +110,7 @@ print(triangle(2, 3, 3))    # Acute Triangle
 print(triangle(5, 5, 9))    # Obtuse Triangle
 ```     
 
-## Q7. Circle Intersection(Hard)
+## Q7. Circle Intersection (Hard)
 Write a function <U>intersection</U>:       
 > input parameter : two (x, y) coordinates and radii x1, y1, r1, x2, y2, r2         
 > return value : returns 1 if all of these circles intersect in one area; returns 0 otherwise       
@@ -124,7 +124,7 @@ print(intersection(0, 0, 3, 2, 3, 2))    # 1
 print(intersection(1, 3, 2, 4, 0, 1))    # 0
 ```     
 
-## Q8. Three Squares Area(Hard)
+## Q8. Three Squares Area (Hard)
 Write a function <U>area</U>:       
 > input parameter : three coordinate x1, y1, x2, y2, x3, y3 and length of side l        
 each coordinates are the center of the square           
