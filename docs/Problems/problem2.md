@@ -23,7 +23,7 @@ Write a function <U>average</U> that returns the arithmetic mean (산술 평균)
 > return value : the arithmetic mean of a and b        
 
 ```python
-def average(a, b)
+def average(a, b):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -38,7 +38,7 @@ Write a function <U>slope</U> that returns the slope of the equation of a straig
 > return value : the float slope value        
 
 ```python
-def slope(a, b, c)
+def slope(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -54,7 +54,7 @@ Write a function <U>solve</U> that returns any real root of given quadratic equa
 > return value : any real root of quadratic equation         
 
 ```python
-def solve(a, b, c)
+def solve(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -68,7 +68,7 @@ Write a function <U>time2second</U>:
 > return value : total second of the given time         
 
 ```python
-def time2second(hour, minute , second)
+def time2second(hour, minute , second):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -83,7 +83,7 @@ Write a function <U>sum</U>:
 > return value : sum of digits         
 
 ```python
-def sum(a, b, c)
+def sum(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -98,7 +98,7 @@ Write a function <U>second2time</U>:
 > return value : string of that time (Hour : Minute : Second)         
 
 ```python
-def time2second(hour, minute , second)
+def time2second(hour, minute , second):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -116,7 +116,7 @@ Write a function <U>oddSum</U>:
 조건문 및 다른 상위 개념 없이 푸시오         
 
 ```python
-def oddSum(x1, x2, x3, x4, x5)
+def oddSum(x1, x2, x3, x4, x5):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -135,7 +135,7 @@ Write a function <U>round</U>:
 조건문 및 다른 상위 개념 없이 푸시오              
 
 ```python
-def round(n, k)
+def round(n, k):
     # ADD ADDITIONAL CODE HERE!
     return
 

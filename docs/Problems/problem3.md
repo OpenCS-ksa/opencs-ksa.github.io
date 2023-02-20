@@ -23,7 +23,7 @@ Write a function <U>min</U>:
 > return value : the minimum value among a and b        
 
 ```python
-def min(a, b)
+def min(a, b):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -38,7 +38,7 @@ Write a function <U>discriminant</U> that returns the number of real roots of th
 > return value : the number of real roots of quadratic equation         
 
 ```python
-def discriminant(a, b, c)
+def discriminant(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -55,7 +55,7 @@ Write a function <U>isLeapYear</U>
 참고로 윤년은 연도가 4의 배수이면서 100의 배수가 아니거나 400의 배수인 해이다.          
 
 ```python
-def isLeapYear(a, b, c)
+def isLeapYear(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -71,7 +71,7 @@ Write a function <U>min</U>:
 > return value : the minimum value among a, b and c          
 
 ```python
-def min(a, b, c)
+def min(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -86,7 +86,7 @@ Write a function <U>isTriangle</U>:
 > return value : returns 1 if it can be a triangle; returns 0 otherwise          
 
 ```python
-def isTriangle(a, b, c)
+def isTriangle(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -101,7 +101,7 @@ Write a function <U>triangle</U>:
 > return value : type of the triange ("Acute Triangle" or "Obtuse Triangle" or "Right Triange")          
 
 ```python
-def triangle(a, b, c)
+def triangle(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -116,7 +116,7 @@ Write a function <U>intersection</U>:
 > return value : returns 1 if all of these circles intersect in one area; returns 0 otherwise       
 
 ```python
-def intersection(x1, y1, r1, x2, y2, r2)
+def intersection(x1, y1, r1, x2, y2, r2):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -124,22 +124,33 @@ print(intersection(0, 0, 3, 2, 3, 2))    # 1
 print(intersection(1, 3, 2, 4, 0, 1))    # 0
 ```     
 
-## Q8. Three Squares Area (Hard)
-Write a function <U>area</U>:       
-> input parameter : three coordinate x1, y1, x2, y2, x3, y3 and length of side l        
-each coordinates are the center of the square           
-and sizes of squares are same (l x l size)          
-> return value : the area of the intersection of the three squares       
+## Q8. Formula Creator (Hard)
+There are three integers a, b, and c.
+We can append one of four arithmetic operators (+, -, *, /) and an equal sign.         
+Write a function <U>formula</U> that returns the complete math formula by inserting appropriate operators between the numbers.            
+
++ Numbers cannot be swapped with each other.            
++ Return one of them if there exist more than one complete formulas            
++ You should not insert space or other unnecessary characters in the return value.          
++ There always exists complete formula(s).
+
+> input parameter : three integers a, b, c         
+> return value : complete math formula by inserting appropriate operators between the numbers.       
 
 ```python
-def area(x1, y1, r1, x2, y2, r2)
+def formula(a, b, c):
     # ADD ADDITIONAL CODE HERE!
     return
 
-print(area(0, 0, 3, 2, 3, 2))    # 1
-print(area(1, 3, 2, 4, 0, 1))    # 0
+print(formula(5, 2, 3)) # 5=2+3 or 5-2=3
+print(formula(9, 3, 6)) # 9=3*6 or 9/3=6 or 9-3=6 or 9=3+6
+print(formula(2, 2, 4)) # 2+2=4 or 2*2=4
 ```     
 
+{: .tip}
+이 문제는 단순히 조건문을 나열해서도 풀 수 있지만,          
+함수로 기능을 묶어두면 훨씬 간단하게 풀 수 있습니다.        
+        
 ## Q9. Three Dices (Hard)
 1에서부터 6까지의 눈을 가진 3개의 주사위를 던져서 다음과 같은 규칙에 따라 상금을 받는 게임이 있다. 
 
@@ -151,7 +162,7 @@ print(area(1, 3, 2, 4, 0, 1))    # 0
 3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 함수 <U>score</U>을 작성하시오.
 
 ```python
-def score(dice1, dice2, dice3)
+def score(dice1, dice2, dice3):
     # ADD ADDITIONAL CODE HERE!
     return
 
