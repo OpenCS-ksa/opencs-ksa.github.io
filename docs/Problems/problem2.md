@@ -132,10 +132,7 @@ Write a function <U>round</U>:
 (k번째 자리에서 반올림 된 숫자 n)           
 
 + Do not use condition statements or other advanced concepts           
-조건문 및 다른 상위 개념 없이 푸시오        
-
-+ 가능하다면 math.round()를 사용하지 않고 풀어보세요        
-(사용하면 Medium 정도의 난이도)         
+조건문 및 다른 상위 개념 없이 푸시오              
 
 ```python
 def round(n, k)
