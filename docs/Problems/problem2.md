@@ -108,7 +108,7 @@ print(second2time(55419))   # 15:23:39
 ```     
 
 ## Q7. Sum of Odd (Hard)
-Write a function <U>evenSum</U>:
+Write a function <U>oddSum</U>:
 > input parameter : five positive integers x1, x2, x3, x4, x5          
 > return value : sum of the odd numbers         
 (Do not use condition statements or other advanced concepts (조건문 및 다른 상위 개념 없이 푸시오))           
