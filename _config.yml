@@ -138,7 +138,7 @@ callouts:
     title: Tip!!
     color: green
   note:
-    title: Note
+    title: Remark
     color: grey-dk
   warning:
     title: 주의!
