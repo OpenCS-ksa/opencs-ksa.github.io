@@ -46,3 +46,117 @@ print(discriminant(1, 4, 4))    # 1
 print(discriminant(1, -6, 5))   # 2
 print(discriminant(1, 0 ,0))    # 0
 ```     
+
+## Q3. Leap Year (Easy)
+Write a function <U>isLeapYear</U>          
+> input parameter :  a integer year (1 <= year <= 4000)          
+> return value : returns 1 if the year is leap year (윤년); returns 0 otherwise        
+
+참고로 윤년은 연도가 4의 배수이면서 100의 배수가 아니거나 400의 배수인 해이다.          
+
+```python
+def discriminant(a, b, c)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(isLeapYear(2023)) # 0
+print(isLeapYear(2024)) # 1
+print(isLeapYear(3000)) # 0
+```     
+[외부 출처] : https://www.acmicpc.net/problem/2753
+
+## Q4. Advanced Minimum (Medium)
+Write a function <U>min</U>:       
+> input parameter :  three integers a, b, c          
+> return value : the minimum value among a, b and c          
+
+```python
+def min(a, b, c)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(min(1, 10, 100))      # 1
+print(min(324, -21, 235))   # -21
+print(min(5, 5 ,0))         # 0
+```     
+
+## Q5. IsTriangle (Medium)
+Write a function <U>isTriangle</U>:       
+> input parameter :  three positive integers a, b, c (length of each edges)          
+> return value : returns 1 if it can be a triangle; returns 0 otherwise          
+
+```python
+def isTriangle(a, b, c)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(triangle(3, 4, 5))    # 1
+print(triangle(2, 10, 7))   # 0
+print(triangle(8, 4 ,4))    # 0
+```     
+
+## Q6. Triangle (Hard)
+Write a function <U>triangle</U>:       
+> input parameter :  three positive integers a, b, c (length of each edges)          
+> return value : type of the triange ("Acute Triangle" or "Obtuse Triangle" or "Right Triange")          
+
+```python
+def triangle(a, b, c)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(triangle(3, 4, 5))    # Right Triangle
+print(triangle(2, 3, 3))    # Acute Triangle
+print(triangle(5, 5, 9))    # Obtuse Triangle
+```     
+
+## Q7. Circle Intersection(Hard)
+Write a function <U>intersection</U>:       
+> input parameter : two (x, y) coordinates and radii x1, y1, r1, x2, y2, r2         
+> return value : returns 1 if all of these circles intersect in one area; returns 0 otherwise       
+
+```python
+def intersection(x1, y1, r1, x2, y2, r2)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(intersection(0, 0, 3, 2, 3, 2))    # 1
+print(intersection(1, 3, 2, 4, 0, 1))    # 0
+```     
+
+## Q8. Three Squares Area(Hard)
+Write a function <U>area</U>:       
+> input parameter : three coordinate x1, y1, x2, y2, x3, y3 and length of side l        
+each coordinates are the center of the square           
+and sizes of squares are same (l x l size)          
+> return value : the area of the intersection of the three squares       
+
+```python
+def intersection(x1, y1, r1, x2, y2, r2)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(intersection(0, 0, 3, 2, 3, 2))    # 1
+print(intersection(1, 3, 2, 4, 0, 1))    # 0
+```     
+
+## Q9. Three Dices (Hard)
+1에서부터 6까지의 눈을 가진 3개의 주사위를 던져서 다음과 같은 규칙에 따라 상금을 받는 게임이 있다. 
+
+같은 눈이 3개가 나오면 10,000원+(같은 눈)×1,000원의 상금을 받게 된다. 
+같은 눈이 2개만 나오는 경우에는 1,000원+(같은 눈)×100원의 상금을 받게 된다. 
+모두 다른 눈이 나오는 경우에는 (그 중 가장 큰 눈)×100원의 상금을 받게 된다.  
+예를 들어, 3개의 눈 3, 3, 6이 주어지면 상금은 1,000+3×100으로 계산되어 1,300원을 받게 된다. 또 3개의 눈이 2, 2, 2로 주어지면 10,000+2×1,000 으로 계산되어 12,000원을 받게 된다. 3개의 눈이 6, 2, 5로 주어지면 그중 가장 큰 값이 6이므로 6×100으로 계산되어 600원을 상금으로 받게 된다.
+
+3개 주사위의 나온 눈이 주어질 때, 상금을 계산하는 함수 <U>score</U>을 작성하시오.
+
+```python
+def score(dice1, dice2, dice3)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(score(3, 3, 6))    # 1300
+print(score(2, 2, 2))    # 12000
+print(score(6, 2, 5))    # 600
+```     
+[외부 출처] 한국정보올림피아드 지역본선 2010 중등부 1번 : https://www.acmicpc.net/problem/2480
