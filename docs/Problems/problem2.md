@@ -111,7 +111,7 @@ print(second2time(55419))   # 15:23:39
 Write a function <U>evenSum</U>:
 > input parameter : five positive integers x1, x2, x3, x4, x5          
 > return value : sum of the odd numbers         
-(Don't use condition statement (조건문 없이 푸시오))
+(Do not use condition statement (조건문 없이 푸시오))           
 
 ```python
 def oddSum(x1, x2, x3, x4, x5)
@@ -128,6 +128,7 @@ Write a function <U>round</U>:
 > input parameter : an float n and an positive integer k         
 > return value : number n rounded to the kth decimal place     
 (k번째 자리에서 반올림 된 숫자 n)           
+(Do not use condition statement (조건문 없이 푸시오))           
 
 ```python
 def round(n, k)
