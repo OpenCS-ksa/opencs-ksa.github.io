@@ -48,10 +48,10 @@ print(slope(3, 0, 6))   # 0.0
 ```     
 
 ## Q3. Root of Quadratic Equation (Easy)
-Write a function <U>solve</U> that returns any root of given quadratic equation          
+Write a function <U>solve</U> that returns any real root of given quadratic equation          
 (All of the quadratic equations given by inputs have at least one root)          
-> input parameter : three integers a, b, c (ax² + bx + c = 0)          
-> return value : any root of quadratic equation         
+> input parameter : three integers a, b, c (ax² + bx + c = 0)  (a is not a zero)          
+> return value : any real root of quadratic equation         
 
 ```python
 def solve(a, b, c)
@@ -102,7 +102,7 @@ def time2second(hour, minute , second)
     # ADD ADDITIONAL CODE HERE!
     return
 
-print(second2time(992))     # 31:6:32
+print(second2time(3992))     # 1:6:32
 print(second2time(20523))   # 5:42:3
 print(second2time(55419))   # 15:23:39
 ```     

@@ -31,3 +31,18 @@ print(min(1, 4))        # 1
 print(min(987, 924))    # 924
 print(min(-826, 331))   # -826
 ```     
+
+## Q2. Discriminant (Easy)
+Write a function <U>discriminant</U> that returns the number of real roots of the given quadratic equation          
+> input parameter :  three integers a, b, c (ax² + bx + c = 0)  (a is not a zero)          
+> return value : the number of real roots of quadratic equation         
+
+```python
+def discriminant(a, b, c)
+    # ADD ADDITIONAL CODE HERE!
+    return
+
+print(discriminant(1, 4, 4))    # 1
+print(discriminant(1, -6, 5))   # 2
+print(discriminant(1, 0 ,0))    # 0
+```     
