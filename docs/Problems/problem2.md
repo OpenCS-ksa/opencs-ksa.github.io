@@ -92,7 +92,7 @@ print(sum(1032))    # 6
 print(sum(4100))    # 5
 ```     
 
-## Q5. Second to Time (Medium)
+## Q6. Second to Time (Medium)
 Write a function <U>second2time</U>:
 > input parameter : an positive integer second          
 > return value : string of that time (<Hour> : <Minute> : <Second>)         
@@ -107,7 +107,7 @@ print(second2time(20523))   # 5:42:3
 print(second2time(55419))   # 15:23:39
 ```     
 
-## Q6. Sum of Odd (Hard)
+## Q7. Sum of Odd (Hard)
 Write a function <U>evenSum</U>:
 > input parameter : five positive integers x1, x2, x3, x4, x5          
 > return value : sum of the odd numbers         
@@ -123,7 +123,7 @@ print(oddSum(2,4,6,8,10))   # 0
 print(oddSum(1,3,5,7,9))    # 25
 ```     
 
-## Q7. Round (Hard)
+## Q8. Round (Hard)
 Write a function <U>round</U>:
 > input parameter : an float n and an positive integer k         
 > return value : number n rounded to the kth decimal place     
