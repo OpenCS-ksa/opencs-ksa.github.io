@@ -10,9 +10,9 @@ permalink: docs/coffee
 
 - - -
                
+
 [커피 사주기](https://toss.me/opencs){: .btn }
-[커피 사주기](https://toss.me/opencs){: .btn }
-[커피 사주기](https://toss.me/opencs){: .btn }
+
 
 <img src = "https://cdn-icons-png.flaticon.com/512/1047/1047462.png" width = "50%">
 
