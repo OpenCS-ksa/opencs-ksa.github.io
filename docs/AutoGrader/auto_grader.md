@@ -11,14 +11,7 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
-    var test_table = [
-        [
-            0,0,0
-        ],
-        [
-            1,1,1
-        ]
-    ]
+    const test_table = [0,0,0]
 
     function SetSelect() {
         /*
