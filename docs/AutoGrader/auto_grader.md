@@ -13,11 +13,11 @@ permalink: docs/AutoGrader
 <script>
     var test_table = [
         [
-            [`average`,`print("Success")`],
-            [`function`, `print("Function")`]
+            ["average","print(\"Success\")"],
+            ["function", "print(\"Function\")"]
         ],
         [
-            [`test`,`print("Test")`]
+            ["test","print(\"Test\")"]
         ]
     ]
 
