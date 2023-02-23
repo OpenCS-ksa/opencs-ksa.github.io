@@ -73,21 +73,21 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
 
 Theme : 
 <select id = 'theme' onclick="SetProblem()" style="background-color:#34333d"><option>1</option></select>
-<br>
+&nbsp;&nbsp;&nbsp;&nbsp;
 Problem : 
 <select id = 'problem' style="background-color:#34333d"><option>1</option></select>
 
 <br>
 <br>    
 
-Code :
+### Code :
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
 <br>
 <button onclick="Check()">Run</button>
 
-Result : 
+### Result : 
 <div id='result'></div>
-<div id="out"></div>
+<h3 id="out"></h3>
 
 <br>
 <br>
