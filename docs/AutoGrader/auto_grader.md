@@ -12,10 +12,15 @@ permalink: docs/AutoGrader
 
 ## Online Judge
 
-##### Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 채점할 수 있습니다.         
+Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 채점할 수 있습니다.         
 
 - - -
-          
+
+<br>
+<br>
+<br>
+
+
 <script>
     const test_table = [
         /*Themes*/
@@ -50,7 +55,7 @@ permalink: docs/AutoGrader
         document.getElementById("problem").innerHTML = html;
     }
 
-    function Check() {
+    function CheckCode() {
         var theme = document.getElementById('theme').value - 1;
         var problem = document.getElementById('problem').value - 1;
         var check_function = test_table[theme][problem][0];
@@ -82,7 +87,7 @@ Problem :
 ### Code :
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
 <br>
-[Run](javascript:MyFunction();){: .btn }
+[Run](javascript:CheckCode();){: .btn }
 
 ### Result : 
 <div id='result'></div>
