@@ -3,7 +3,6 @@ layout: default
 title: Online Judge
 nav_order: 4
 nav_exclude: false
-permalink: docs/AutoGrader
 ---
 <head>
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
