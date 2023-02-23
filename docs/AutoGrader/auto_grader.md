@@ -11,7 +11,6 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
-    /*
     var test_table = [
         [
             [`average`,`print("Success")`],
@@ -21,7 +20,6 @@ permalink: docs/AutoGrader
             [`test`,`print("Test")`]
         ]
     ]
-    */
 
     function SetSelect() {
         /*
