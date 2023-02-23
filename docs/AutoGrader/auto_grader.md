@@ -80,14 +80,17 @@ Problem :
 <br>
 <br>    
 
-Code:
+Code :
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
 <br>
 <button onclick="Check()">Run</button>
-<br>
-<br>
-<br>
+
+Result : 
 <div id='result'></div>
+
+<br>
+<br>
+<br>
 
 <div id="out"></div>
 
