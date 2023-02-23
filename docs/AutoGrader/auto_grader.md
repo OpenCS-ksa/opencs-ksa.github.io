@@ -3,6 +3,7 @@ layout: default
 title: Online Judge
 nav_order: 3
 nav_exclude: false
+permalink: docs/AutoGrader
 ---
 <head>
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
@@ -53,7 +54,7 @@ nav_exclude: false
         else {
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
         }
-}
+    }
 </script>
 
 Theme : 
@@ -62,10 +63,15 @@ Theme :
 Problem : 
 <select id = 'problem' style="background-color:#34333d"><option>1</option></select>
 
+<br>
+<br>    
+
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
-
+<br>
 <button onclick="Check()">Run</button>
-
+<br>
+<br>
+<br>
 <div id='result'></div>
 
 <div id="out"></div>
