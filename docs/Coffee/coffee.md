@@ -3,7 +3,6 @@ layout: default
 title: Coffee
 nav_order: 4
 nav_exclude: false
-permalink: docs/coffee
 ---
 ### 만약에 멘토링이 도움되었다면..
 ## Open CS 멘토들에게 커피 한 잔 사주세요..!
