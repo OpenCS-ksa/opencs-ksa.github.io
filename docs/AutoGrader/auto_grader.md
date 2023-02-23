@@ -11,7 +11,7 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
-    test_table = [
+    var test_table = [
         [
             ['average',`print("Success")`],
             ['function', `print("Function")`]
@@ -22,13 +22,13 @@ permalink: docs/AutoGrader
     ]
 
     function SetSelect() {
-        html = ""
+        var html = ""
         for(int i = 1; i <= test_table.length; i++){
             html += "<option>" + String(i) + "</option>\n"
         }
         document.getElementById("theme").innerHTML = html;
 
-        theme = document.getElementById('theme').value - 1;
+        var theme = document.getElementById('theme').value - 1;
 
         html = ""
         for(int i = 1; i <= test_table[theme].length; i++){
@@ -38,12 +38,12 @@ permalink: docs/AutoGrader
     }
 
     function Check() {
-        theme = document.getElementById('theme').value - 1
-        problem = document.getElementById('problem').value - 1
-        check_function = test_talbe[theme][problem][0]
-        check_code = test_talbe[theme][problem][1]
+        var theme = document.getElementById('theme').value - 1
+        var problem = document.getElementById('problem').value - 1
+        var check_function = test_talbe[theme][problem][0]
+        var check_code = test_talbe[theme][problem][1]
 
-        const code = document.getElementById('code').value;
+        var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
         if(string.includes("print")) {
             alert("print 구문을 제외하고 넣으세요.")
