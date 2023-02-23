@@ -12,7 +12,7 @@ permalink: docs/AutoGrader
 
 ## Online Judge
 
-### Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 채점할 수 있습니다.         
+##### Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 채점할 수 있습니다.         
 
 - - -
           
@@ -82,7 +82,7 @@ Problem :
 ### Code :
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
 <br>
-<button onclick="Check()">Run</button>
+[Run](javascript:MyFunction();){: .btn }
 
 ### Result : 
 <div id='result'></div>
