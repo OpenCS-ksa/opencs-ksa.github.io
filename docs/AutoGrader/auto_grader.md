@@ -35,7 +35,7 @@ nav_exclude: false
         }
         document.getElementById("problem").innerHTML = html;
     }
-    
+
     function Check() {
         theme = document.getElementById('theme').value - 1
         problem = document.getElementById('problem').value - 1
@@ -56,8 +56,11 @@ nav_exclude: false
 }
 </script>
 
-<select id = 'theme' onclick="SetSelect()"><option>1</option></select>
-<select id = 'problem'><option>1</option></select>
+Theme : 
+<select id = 'theme' onclick="SetSelect()" style="background-color:#34333d"><option>1</option></select>
+<br>
+Problem : 
+<select id = 'problem' style="background-color:#34333d"><option>1</option></select>
 
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
 
