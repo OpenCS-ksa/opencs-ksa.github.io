@@ -55,6 +55,8 @@ permalink: docs/AutoGrader
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
         }
     }
+
+    console.log(test_table)
 </script>
 
 Theme : 
