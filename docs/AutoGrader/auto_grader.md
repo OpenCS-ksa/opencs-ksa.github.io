@@ -38,7 +38,10 @@ Problem :
 
 <script>
     const test_table = [
+        //Themes
         [
+            //Problems
+            //`Main Function Name`, `Test Code`
             [`test11`, `print("test1")`], 
             [`test12`, `print("test2")`]
         ],
