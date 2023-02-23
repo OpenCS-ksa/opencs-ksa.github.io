@@ -70,8 +70,8 @@ Problem :
     function Check() {
         var theme = document.getElementById('theme').value - 1;
         var problem = document.getElementById('problem').value - 1;
-        var check_function = test_talbe[theme][problem][0];
-        var check_code = test_talbe[theme][problem][1];
+        var check_function = test_table[theme][problem][0];
+        var check_code = test_table[theme][problem][1];
 
         var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
