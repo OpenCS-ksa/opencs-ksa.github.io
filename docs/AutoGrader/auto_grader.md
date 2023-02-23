@@ -11,7 +11,7 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
-    const test_table = [0,0,0]
+    const test_table = 5;
 
     function SetSelect() {
         /*
