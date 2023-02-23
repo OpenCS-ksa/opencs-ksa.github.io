@@ -9,6 +9,12 @@ permalink: docs/AutoGrader
     <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
     <script defer src="https://pyscript.net/unstable/pyscript.js"></script>
 </head>
+
+## Online Judge
+
+Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 채점할 수 있습니다.         
+
+- - -
     
 <script>
     const test_table = [
