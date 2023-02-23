@@ -11,6 +11,7 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
+    /*
     var test_table = [
         [
             [`average`,`print("Success")`],
@@ -20,10 +21,12 @@ permalink: docs/AutoGrader
             [`test`,`print("Test")`]
         ]
     ]
+    */
 
     function SetSelect() {
+        /*
         var html = ""
-        for(int i = 1; i <= test_table.length; i++){
+        for(var i = 1; i <= test_table.length; i++){
             html += "<option>" + String(i) + "</option>\n"
         }
         document.getElementById("theme").innerHTML = html;
@@ -31,14 +34,15 @@ permalink: docs/AutoGrader
         var theme = document.getElementById('theme').value - 1;
 
         html = ""
-        for(int i = 1; i <= test_table[theme].length; i++){
+        for(var i = 1; i <= test_table[theme].length; i++){
             html += "<option>" + String(i) + "</option>\n"
         }
         document.getElementById("problem").innerHTML = html;
+        */
     }
 
     function Check() {
-        var theme = document.getElementById('theme').value - 1
+        /*var theme = document.getElementById('theme').value - 1
         var problem = document.getElementById('problem').value - 1
         var check_function = test_talbe[theme][problem][0]
         var check_code = test_talbe[theme][problem][1]
@@ -54,6 +58,7 @@ permalink: docs/AutoGrader
         else {
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
         }
+        */
     }
 </script>
 
