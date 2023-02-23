@@ -24,34 +24,34 @@ permalink: docs/AutoGrader
     ];
 
     function SetSelect() {
-        var html = ""
+        var html = "";
         for(var i = 1; i <= test_table.length; i++){
-            html += "<option>" + String(i) + "</option>\n"
+            html += "<option>" + String(i) + "</option>\n";
         }
         document.getElementById("theme").innerHTML = html;
 
         var theme = document.getElementById('theme').value - 1;
 
-        html = ""
+        html = "";
         for(var i = 1; i <= test_table[theme].length; i++){
-            html += "<option>" + String(i) + "</option>\n"
+            html += "<option>" + String(i) + "</option>\n";
         }
         document.getElementById("problem").innerHTML = html;
     }
 
     function Check() {
-        var theme = document.getElementById('theme').value - 1
-        var problem = document.getElementById('problem').value - 1
-        var check_function = test_talbe[theme][problem][0]
-        var check_code = test_talbe[theme][problem][1]
+        var theme = document.getElementById('theme').value - 1;
+        var problem = document.getElementById('problem').value - 1;
+        var check_function = test_talbe[theme][problem][0];
+        var check_code = test_talbe[theme][problem][1];
 
         var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
         if(string.includes("print")) {
-            alert("print 구문을 제외하고 넣으세요.")
+            alert("print 구문을 제외하고 넣으세요.");
         }
         else if (string.includes(check_function)) {
-            alert(check_function + " 함수를 포함하고 있지 않습니다.")
+            alert(check_function + " 함수를 포함하고 있지 않습니다.");
         }
         else {
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
