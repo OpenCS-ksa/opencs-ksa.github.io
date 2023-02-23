@@ -62,7 +62,7 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         if(code.includes("print")) {
             alert("print 구문을 제외하고 넣으세요.");
         }
-        else if (code.includes(check_function)) {
+        else if (!code.includes(check_function)) {
             alert(check_function + " 함수를 포함하고 있지 않습니다.");
         }
         else {
