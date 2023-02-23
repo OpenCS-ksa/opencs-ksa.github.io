@@ -72,7 +72,7 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
 </script>
 
 Theme : 
-<select id = 'theme' onclick="SetSelect()" style="background-color:#34333d"><option>1</option></select>
+<select id = 'theme' onclick="SetProblem()" style="background-color:#34333d"><option>1</option></select>
 <br>
 Problem : 
 <select id = 'problem' style="background-color:#34333d"><option>1</option></select>
