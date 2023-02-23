@@ -87,12 +87,11 @@ Code :
 
 Result : 
 <div id='result'></div>
-
-<br>
-<br>
-<br>
-
 <div id="out"></div>
+
+<br>
+<br>
+<br>
 
 <script>
     SetTheme();
