@@ -11,7 +11,7 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
-    const test_table = [1,2,3];
+    const test_table = [[[`test11`, `print("test1")`], [`test12`, `print("test2")`]],[[`test21`, `print("test3")`], [`test22`, `print("test4")`], [`test23`, `print("test5")`]]];
 
     function SetSelect() {
         /*
