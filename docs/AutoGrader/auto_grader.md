@@ -17,6 +17,25 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
 
 - - -
     
+Theme : 
+<select id = 'theme' onclick="SetProblem()" style="background-color:#34333d"><option>1</option></select>
+<br>
+Problem : 
+<select id = 'problem' style="background-color:#34333d"><option>1</option></select>
+
+<br>
+<br>    
+
+<textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
+<br>
+<button onclick="Check()">Run</button>
+<br>
+<br>
+<br>
+<div id='result'></div>
+
+<div id="out"></div>
+
 <script>
     const test_table = [
         [
@@ -70,22 +89,3 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
     SetTheme();
     SetProblem();
 </script>
-
-Theme : 
-<select id = 'theme' onclick="SetProblem()" style="background-color:#34333d"><option>1</option></select>
-<br>
-Problem : 
-<select id = 'problem' style="background-color:#34333d"><option>1</option></select>
-
-<br>
-<br>    
-
-<textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
-<br>
-<button onclick="Check()">Run</button>
-<br>
-<br>
-<br>
-<div id='result'></div>
-
-<div id="out"></div>
