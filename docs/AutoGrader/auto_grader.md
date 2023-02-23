@@ -19,10 +19,10 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
     
 <script>
     const test_table = [
-        //Themes
+        /*Themes*/
         [
-            //Problems
-            //`Main Function Name`, `Test Code`
+            /*Problems*/
+            /*`Main Function Name`, `Test Code`*/
             [`test11`, `print("test1")`], 
             [`test12`, `print("test2")`]
         ],
