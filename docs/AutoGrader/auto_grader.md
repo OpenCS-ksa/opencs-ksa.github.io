@@ -11,10 +11,19 @@ permalink: docs/AutoGrader
 </head>
     
 <script>
-    const test_table = [[[`test11`, `print("test1")`], [`test12`, `print("test2")`]],[[`test21`, `print("test3")`], [`test22`, `print("test4")`], [`test23`, `print("test5")`]]];
+    const test_table = [
+        [
+            [`test11`, `print("test1")`], 
+            [`test12`, `print("test2")`]
+        ],
+        [
+            [`test21`, `print("test3")`], 
+            [`test22`, `print("test4")`], 
+            [`test23`, `print("test5")`]
+        ]
+    ];
 
     function SetSelect() {
-        /*
         var html = ""
         for(var i = 1; i <= test_table.length; i++){
             html += "<option>" + String(i) + "</option>\n"
@@ -28,11 +37,10 @@ permalink: docs/AutoGrader
             html += "<option>" + String(i) + "</option>\n"
         }
         document.getElementById("problem").innerHTML = html;
-        */
     }
 
     function Check() {
-        /*var theme = document.getElementById('theme').value - 1
+        var theme = document.getElementById('theme').value - 1
         var problem = document.getElementById('problem').value - 1
         var check_function = test_talbe[theme][problem][0]
         var check_code = test_talbe[theme][problem][1]
@@ -48,7 +56,6 @@ permalink: docs/AutoGrader
         else {
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
         }
-        */
     }
 </script>
 
