@@ -13,6 +13,7 @@ permalink: docs/AutoGrader
 ## Online Judge
 
 Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 채점할 수 있습니다.         
+<br>
 
 - - -
     
@@ -29,13 +30,15 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         ]
     ];
 
-    function SetSelect() {
+    function SetTheme() {
         var html = "";
         for(var i = 1; i <= test_table.length; i++){
             html += "<option>" + String(i) + "</option>\n";
         }
         document.getElementById("theme").innerHTML = html;
+    }
 
+    function SetProblem() {
         var theme = document.getElementById('theme').value - 1;
 
         html = "";
@@ -63,6 +66,9 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
         }
     }
+
+    SetTheme();
+    SetProblem();
 </script>
 
 Theme : 
