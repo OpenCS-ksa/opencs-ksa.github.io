@@ -78,8 +78,6 @@ Theme :
 Problem : 
 <select id = 'problem' style="background-color:#34333d"><option>1</option></select>
 
-<br>    
-
 ### Code :
 <textarea id='code' name="code" rows="5" cols="50" style="background-color:#34333d"></textarea>
 <br>
