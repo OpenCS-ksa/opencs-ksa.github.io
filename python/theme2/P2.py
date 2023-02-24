@@ -25,6 +25,6 @@ for i in test_table:
     chk += slope(i[0], i[1], i[2]) == _SLOPE(i[0], i[1], i[2])
 
 if chk == len(test_table):
-    print("Success!!")
+    print("Success!! (", chk, "/", len(test_table),")")
 else:
     print("Failed (", chk, "/", len(test_table),")")

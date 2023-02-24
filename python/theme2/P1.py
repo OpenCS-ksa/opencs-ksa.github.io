@@ -30,6 +30,6 @@ for i in test_table:
     chk += average(i[0], i[1]) == _AVERAGE(i[0],i[1])
 
 if chk == len(test_table):
-    print("Success!!")
+    print("Success!! (", chk, "/", len(test_table),")")
 else:
     print("Failed (", chk, "/", len(test_table),")")

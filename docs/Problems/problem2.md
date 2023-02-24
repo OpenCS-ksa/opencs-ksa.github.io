@@ -83,7 +83,7 @@ Write a function <U>sum</U>:
 > return value : sum of digits         
 
 ```python
-def sum(a, b, c):
+def sum(n):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -98,7 +98,7 @@ Write a function <U>second2time</U>:
 > return value : string of that time (Hour : Minute : Second)         
 
 ```python
-def time2second(hour, minute , second):
+def second2time(second):
     # ADD ADDITIONAL CODE HERE!
     return
 
@@ -127,7 +127,7 @@ print(oddSum(1,3,5,7,9))    # 25
 
 ## Q8. Round (Hard)
 Write a function <U>round</U>:
-> input parameter : an float n and an positive integer k         
+> input parameter : an positive float n and an positive integer k         
 > return value : number n rounded to the kth decimal place     
 (k번째 자리에서 반올림 된 숫자 n)           
 
