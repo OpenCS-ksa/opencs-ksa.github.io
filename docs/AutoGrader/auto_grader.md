@@ -73,7 +73,6 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
             alert(check_function + " 함수를 포함하고 있지 않습니다.");
         }
         else {
-            console.log(code + "\n\n" + check_code);
             document.getElementById("result").innerHTML = `<py-script output="out">` + code + "\n\n" + check_code + `</py-script>`;
         }
     }
@@ -90,7 +89,7 @@ Problem :
 <br>
 [Run](javascript:CheckCode();){: .btn }
 
-### Result : 
+<h3> Result : </h3>
 <div id='result'></div>
 <h3 id="out"></h3>
 
