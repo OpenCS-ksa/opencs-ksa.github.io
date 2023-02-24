@@ -62,7 +62,7 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         var theme = document.getElementById('theme').value - 1;
         var problem = document.getElementById('problem').value - 1;
         var check_function = test_table[theme][problem][0];
-        var check_code = FetchText(test_table[theme][problem][1]);
+        var check_code = await FetchText(test_table[theme][problem][1]);
 
         var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
