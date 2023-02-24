@@ -50,12 +50,19 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         document.getElementById("problem").innerHTML = html;
     }
 
+    async function FetchText(path) {
+        let response = await fetch(path);
+        if (response.status === 200) {
+            let data = await response.text();
+            return data;
+        }
+    }
+
     function CheckCode() {
         var theme = document.getElementById('theme').value - 1;
         var problem = document.getElementById('problem').value - 1;
         var check_function = test_table[theme][problem][0];
-        var code_response = fetch(test_table[theme][problem][1]);
-        var check_code = code_response.text();
+        var check_code = FetchText(test_table[theme][problem][1]);
 
         var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
