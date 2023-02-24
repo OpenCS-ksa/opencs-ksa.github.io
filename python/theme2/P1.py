@@ -1,6 +1,8 @@
+'''
 def average(a, b):
     # ADD ADDITIONAL CODE HERE!
     return (a + b) / 2
+'''
 
 test_table = [
     [1,5],
