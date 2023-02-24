@@ -27,7 +27,8 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
             [`test`, `print("test1")`], 
         ],
         [
-            [`average`, `https://opencs-ksa.github.io/python/theme2/P1.py`]
+            [`average`, `https://opencs-ksa.github.io/python/theme2/P1.py`],
+            [`slope`, `https://opencs-ksa.github.io/python/theme2/P2.py`]
         ]
     ];
 

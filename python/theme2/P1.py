@@ -1,8 +1,5 @@
-'''
-def average(a, b):
-    # ADD ADDITIONAL CODE HERE!
+def _AVERAGE(a, b):
     return (a + b) / 2
-'''
 
 test_table = [
     [1,5],
@@ -30,7 +27,7 @@ test_table = [
 
 chk = 0
 for i in test_table:
-    chk += average(i[0], i[1]) == (i[0] + i[1]) / 2
+    chk += average(i[0], i[1]) == _AVERAGE(i[0],i[1])
 
 if chk == len(test_table):
     print("Success!!")
