@@ -18,8 +18,8 @@ Theme 2 Problems
 - - -         
 
 ## Q1. Average (Easy)
-Write a function <U>average</U> that returns the arithmetic mean (산술 평균) of two numbers a and b          
-> input parameter : two floats a and b          
+Write a function <U>average</U> that returns the arithmetic mean (산술 평균) of two integers a and b          
+> input parameter : two integers a and b          
 > return value : the arithmetic mean of a and b        
 
 ```python
@@ -27,9 +27,9 @@ def average(a, b):
     # ADD ADDITIONAL CODE HERE!
     return
 
-print(average(8, 2))            # 5.0
-print(average(247, -893))       # -323.0
-print(average(0.837, 2.351))    # 1.594
+print(average(8, 2))        # 5.0
+print(average(247, -893))   # -323.0
+print(average(4628, 1241))  # 2934.5
 ```     
 
 ## Q2. Slope (Easy)

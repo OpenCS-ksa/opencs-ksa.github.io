@@ -23,14 +23,11 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         /*Themes*/
         [
             /*Problems*/
-            /*`Main Function Name`, `Test Code`*/
-            [`test11`, `print("test1")`], 
-            [`test12`, `print("test2")`]
+            /*`Main Function Name`, `Test Code File`*/
+            [`test`, `print("test1")`], 
         ],
         [
-            [`test21`, `print("test3")`], 
-            [`test22`, `print("test4")`], 
-            [`test23`, `print("test5")`]
+            [`average`, ``]
         ]
     ];
 
