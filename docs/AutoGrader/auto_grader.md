@@ -58,7 +58,7 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         }
     }
 
-    function CheckCode() {
+    async function CheckCode() {
         var theme = document.getElementById('theme').value - 1;
         var problem = document.getElementById('problem').value - 1;
         var check_function = test_table[theme][problem][0];
