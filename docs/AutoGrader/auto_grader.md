@@ -54,8 +54,8 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         var theme = document.getElementById('theme').value - 1;
         var problem = document.getElementById('problem').value - 1;
         var check_function = test_table[theme][problem][0];
-        var code_response = await fetch(test_table[theme][problem][1]);
-        var check_code = await code_response.text();
+        var code_response = fetch(test_table[theme][problem][1]);
+        var check_code = code_response.text();
 
         var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
