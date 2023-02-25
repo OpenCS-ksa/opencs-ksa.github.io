@@ -5,6 +5,7 @@ nav_order: 5
 nav_exclude: false
 ---
 <script src="js/jsPDF/dist/jspdf.umd.js"></script>
+<script src="js/html2canvas.min.js"></script>
 
 ## PDF Download
       
