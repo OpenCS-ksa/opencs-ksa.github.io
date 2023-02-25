@@ -10,8 +10,6 @@ nav_exclude: false
       
 - - -
 
-[Download](javascript:ConvertHTML2PDF();){: .btn }
-
 <script>
     window.jsPDF = window.jspdf.jsPDF;
 
@@ -36,3 +34,5 @@ nav_exclude: false
         });
     }
 </script>
+
+[Download](javascript:ConvertHTML2PDF();){: .btn }
