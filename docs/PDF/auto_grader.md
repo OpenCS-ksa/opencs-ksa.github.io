@@ -13,24 +13,21 @@ nav_exclude: false
 <script>
     window.jsPDF = window.jspdf.jsPDF;
 
-    // Convert HTML content to PDF
     function ConvertHTML2PDF() {
         var doc = new jsPDF();
         
-        // Source HTMLElement or a string containing HTML.
         var elementHTML = document.querySelector("#contentToPrint");
 
         doc.html(elementHTML, {
             callback: function(doc) {
-                // Save the PDF
                 doc.save('Open CS.pdf');
             },
             margin: [10, 10, 10, 10],
             autoPaging: 'text',
             x: 0,
             y: 0,
-            width: 190, //target width in the PDF document
-            windowWidth: 675 //window width in CSS pixels
+            width: 190,
+            windowWidth: 675 
         });
     }
 </script>
