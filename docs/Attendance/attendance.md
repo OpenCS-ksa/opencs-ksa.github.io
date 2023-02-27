@@ -18,7 +18,7 @@ nav_exclude: false
 
 <script type="text/javascript">
      const CLIENT_ID = '110007993587368451529';
-     const API_KEY = 'e1a634edf54a256be9fbc66c0dad42b3a708d76a';
+     const API_KEY = 'AIzaSyCK53c3ug2uQREiYGqpAXt_B8rP6A9Vbg0';
      const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4';
      const SCOPES = 'https://www.googleapis.com/auth/spreadsheets';
 
