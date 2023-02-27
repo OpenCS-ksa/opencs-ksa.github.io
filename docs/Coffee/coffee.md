@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Coffee
-nav_order: 5
+nav_order: 6
 nav_exclude: false
 ---
 ### 만약에 멘토링이 도움되었다면..
-## Open CS 멘토들에게 커피 한 잔 사주세요..!
+## Open CS 멘토들에게 커피 한 잔 사주세요
 
 - - -
                
