@@ -2,7 +2,7 @@
 layout: default
 title: Attendance
 nav_order: 5
-nav_exclude: false
+nav_exclude: true
 ---
 ## 출석
 
