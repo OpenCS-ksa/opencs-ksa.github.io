@@ -20,7 +20,7 @@ nav_exclude: false
      const CLIENT_ID = '110007993587368451529';
      const API_KEY = 'e1a634edf54a256be9fbc66c0dad42b3a708d76a';
      const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4';
-     const SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly';
+     const SCOPES = 'https://www.googleapis.com/auth/spreadsheets';
 
      let tokenClient;
      let gapiInited = false;
@@ -90,7 +90,7 @@ nav_exclude: false
      try {
      response = await gapi.client.sheets.spreadsheets.values.get({
           spreadsheetId: '1X3ZtRWpwc5G22bFo0dTFgs7UTjwW-mMY5cn_bEVIabw',
-          range: 'Test!A2:E',
+          range: 'Test!A1:E',
      });
      } catch (err) {
      document.getElementById('content').innerText = err.message;
