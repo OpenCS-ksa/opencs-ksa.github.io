@@ -4,7 +4,7 @@ title: Attendance
 nav_order: 5
 nav_exclude: false
 ---
-## 출석부
+## 출석
 
 - - -
 
@@ -17,10 +17,17 @@ nav_exclude: false
 <pre id="content" style="white-space: pre-wrap;"></pre>
 
 <script type="text/javascript">
+     /* exported gapiLoaded */
+     /* exported gisLoaded */
+     /* exported handleAuthClick */
+     /* exported handleSignoutClick */
+
      const CLIENT_ID = '74045000255-dio9166ulopprbkvv0rs8taui8c77o42.apps.googleusercontent.com';
      const API_KEY = 'AIzaSyCK53c3ug2uQREiYGqpAXt_B8rP6A9Vbg0';
+
      const DISCOVERY_DOC = 'https://sheets.googleapis.com/$discovery/rest?version=v4';
-     const SCOPES = 'https://www.googleapis.com/auth/spreadsheets';
+
+     const SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly';
 
      let tokenClient;
      let gapiInited = false;
@@ -28,10 +35,18 @@ nav_exclude: false
 
      document.getElementById('authorize_button').style.visibility = 'hidden';
      document.getElementById('signout_button').style.visibility = 'hidden';
+
+     /**
+     * Callback after api.js is loaded.
+     */
      function gapiLoaded() {
      gapi.load('client', initializeGapiClient);
      }
 
+     /**
+     * Callback after the API client is loaded. Loads the
+     * discovery doc to initialize the API.
+     */
      async function initializeGapiClient() {
      await gapi.client.init({
      apiKey: API_KEY,
@@ -41,6 +56,9 @@ nav_exclude: false
      maybeEnableButtons();
      }
 
+     /**
+     * Callback after Google Identity Services are loaded.
+     */
      function gisLoaded() {
      tokenClient = google.accounts.oauth2.initTokenClient({
      client_id: CLIENT_ID,
@@ -51,12 +69,18 @@ nav_exclude: false
      maybeEnableButtons();
      }
 
+     /**
+     * Enables user interaction after all libraries are loaded.
+     */
      function maybeEnableButtons() {
      if (gapiInited && gisInited) {
      document.getElementById('authorize_button').style.visibility = 'visible';
      }
      }
 
+     /**
+     *  Sign in the user upon button click.
+     */
      function handleAuthClick() {
      tokenClient.callback = async (resp) => {
      if (resp.error !== undefined) {
@@ -74,6 +98,9 @@ nav_exclude: false
      }
      }
 
+     /**
+     *  Sign out the user upon button click.
+     */
      function handleSignoutClick() {
      const token = gapi.client.getToken();
      if (token !== null) {
@@ -85,12 +112,16 @@ nav_exclude: false
      }
      }
 
+     /**
+     * Print the names and majors of students in a sample spreadsheet:
+     * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
+     */
      async function listMajors() {
      let response;
      try {
      response = await gapi.client.sheets.spreadsheets.values.get({
-          spreadsheetId: '1X3ZtRWpwc5G22bFo0dTFgs7UTjwW-mMY5cn_bEVIabw',
-          range: 'Test!A1:E',
+          spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
+          range: 'Class Data!A2:E',
      });
      } catch (err) {
      document.getElementById('content').innerText = err.message;
