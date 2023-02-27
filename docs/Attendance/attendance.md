@@ -7,10 +7,9 @@ nav_exclude: false
 ## 출석부
 
 - - -
-               
+<script type="module" src="googleapis"></script>
+<script type="module" src="client_secret.json"></script>
 <script>
-     let google = require('googleapis');
-     let secretKey = require("client_secret.json");
      let jwtClient = new google.auth.JWT(
           secretKey.client_email,
           null,
