@@ -4,7 +4,7 @@ title: Attendance
 nav_order: 5
 nav_exclude: false
 ---
-## 출석부부
+## 출석부
 
 - - -
                
