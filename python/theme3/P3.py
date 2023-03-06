@@ -5,7 +5,7 @@ def IS_LEAP_YEAR(year):
     return 0
     
 
-test_table = [
+test_table = (
     1893,
     1976,
     2009,
@@ -56,7 +56,7 @@ test_table = [
     1941,
     2003,
     1909
-]
+)
 
 chk = 0
 for i in test_table:
