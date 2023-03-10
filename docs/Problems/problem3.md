@@ -113,7 +113,7 @@ print(triangle(5, 5, 9))    # Obtuse Triangle
 ## Q7. Circle Intersection (Hard)
 Write a function <U>intersection</U>:       
 > input parameter : two (x, y) coordinates and radii x1, y1, r1, x2, y2, r2         
-> return value : returns 1 if all of these circles intersect in one area; returns 0 otherwise       
+> return value : returns 1 if they intersect (include the case meeting at one point); returns 0 otherwise       
 
 ```python
 def intersection(x1, y1, r1, x2, y2, r2):
