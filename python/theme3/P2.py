@@ -1,4 +1,4 @@
-def _Discriminant(a, b, c):
+def DISCRIMINANT(a, b, c):
     ret = b**2 - 4*a*c
     if ret > 0:
         return 2
@@ -41,7 +41,7 @@ test_table = (
 
 chk = 0
 for i in test_table:
-    chk += discriminant(i[0], i[1], i[2]) == _Discriminant(i[0], i[1], i[2])
+    chk += discriminant(i[0], i[1], i[2]) == DISCRIMINANT(i[0], i[1], i[2])
 
 if chk == len(test_table):
     print("Success!! (", chk, "/", len(test_table),")")

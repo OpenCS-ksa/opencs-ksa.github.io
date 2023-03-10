@@ -1,4 +1,4 @@
-def TestFormula(input):
+def CHECK_FORMULA(input):
     pos = input.find("=")
     input = input[:pos] + '=' + input[pos:]
     res = eval(input)
@@ -52,7 +52,7 @@ test_table = (
 
 chk = 0
 for i in test_table:
-    chk += TestFormula(formula(i[0], i[1], i[2]))
+    chk += TestFormula(CHECK_FORMULA(i[0], i[1], i[2]))
 
 if chk == len(test_table):
     print("Success!! (", chk, "/", len(test_table),")")
