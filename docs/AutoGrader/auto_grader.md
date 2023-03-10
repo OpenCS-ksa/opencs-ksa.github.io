@@ -23,7 +23,7 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         /*Themes*/
         [],
         [ `average`, `slope`, `solve`, 'time2second', 'sum', 'second2time', 'oddSum', 'round' ],
-        [ `min`, `discriminant`, `isLeapYear`]
+        [ `min`, `discriminant`, `isLeapYear`, `min`, `isTriangle`, `triangle`, `intersection`]
     ];
 
     function SetTheme() {
