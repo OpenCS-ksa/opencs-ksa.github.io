@@ -55,7 +55,7 @@ Write a function <U>isLeapYear</U>
 참고로 윤년은 연도가 4의 배수이면서 100의 배수가 아니거나 400의 배수인 해이다.          
 
 ```python
-def isLeapYear(a, b, c):
+def isLeapYear(a):
     # ADD ADDITIONAL CODE HERE!
     return
 
