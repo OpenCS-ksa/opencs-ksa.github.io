@@ -60,7 +60,7 @@ test_table = (
 
 chk = 0
 for i in test_table:
-    chk += intersection(i[0], i[1], i[2]) == CIR(i[0], i[1], i[2], i[3], i[4], i[5])
+    chk += intersection(i[0], i[1], i[2], i[3], i[4], i[5]) == CIR(i[0], i[1], i[2], i[3], i[4], i[5])
 
 if chk == len(test_table):
     print("Success!! (", chk, "/", len(test_table),")")
