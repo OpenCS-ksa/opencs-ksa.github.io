@@ -1,5 +1,5 @@
 def TRI(a,b,c):
-    l = sorted([a,b,c])
+    l = __builtins__.sorted([a,b,c])
     if l[0]**2 + l[1]**2 == l[2]**2:
         return "Right Triange"
     elif l[0]**2 + l[1]**2 > l[2]**2:

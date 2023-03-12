@@ -139,8 +139,13 @@ Write a function <U>formula</U> that returns the complete math formula by insert
 
 ```python
 def formula(a, b, c):
+    # Use the two variables below
+    oper1 = "" # The First Operator
+    oper2 = "" # The Second Operator
+    
     # ADD ADDITIONAL CODE HERE!
-    return
+
+    return str(a) + oper1 + str(b) + oper2 + str(c)
 
 print(formula(5, 2, 3)) # 5=2+3 or 5-2=3
 print(formula(9, 3, 6)) # 9=3*6 or 9/3=6 or 9-3=6 or 9=3+6

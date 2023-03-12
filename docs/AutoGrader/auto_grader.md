@@ -22,8 +22,8 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
     const test_table = [
         /*Themes*/
         [],
-        [ `average`, `slope`, `solve`, 'time2second', 'sum', 'second2time', 'oddSum', 'round' ],
-        [ `min`, `discriminant`, `isLeapYear`, `min`, `isTriangle`, `triangle`, `intersection`]
+        [ "average", "slope", "solve", "time2second", "sum", "second2time", "oddSum", "round" ],
+        [ "min", "discriminant", "isLeapYear", "min", "isTriangle", "triangle", "intersection", "formula", "score"]
     ];
 
     function SetTheme() {

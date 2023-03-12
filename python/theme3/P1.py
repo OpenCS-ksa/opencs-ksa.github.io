@@ -1,6 +1,3 @@
-def _MIN(a, b):
-    return a if a < b else b
-
 test_table = (
     (1,2),
     (-1,-2),
@@ -56,7 +53,7 @@ test_table = (
 
 chk = 0
 for i in test_table:
-    chk += min(i[0], i[1]) == _MIN(i[0],i[1])
+    chk += min(i[0], i[1]) == __builtins__.min(i[0],i[1])
 
 if chk == len(test_table):
     print("Success!! (", chk, "/", len(test_table),")")
