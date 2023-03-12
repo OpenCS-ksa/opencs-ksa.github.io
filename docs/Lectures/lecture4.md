@@ -3,7 +3,7 @@ layout: default
 title: Theme 4. Booleans
 parent: Lectures
 nav_order: 4
-nav_exclude: false
+nav_exclude: true 
 ---
 ### Theme 4
 {: .no_toc }
