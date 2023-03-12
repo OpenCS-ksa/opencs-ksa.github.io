@@ -98,7 +98,7 @@ print(isTriangle(8, 4 ,4))    # 0
 ## Q6. Triangle (Hard)
 Write a function <U>triangle</U>:       
 > input parameter :  three positive integers a, b, c (length of each edges)          
-> return value : type of the triange ("Acute Triangle" or "Obtuse Triangle" or "Right Triange")          
+> return value : type of the triange ("Acute Triangle" or "Obtuse Triangle" or "Right Triangle")          
 
 ```python
 def triangle(a, b, c):
