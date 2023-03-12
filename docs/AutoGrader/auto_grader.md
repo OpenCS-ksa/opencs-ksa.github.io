@@ -61,10 +61,10 @@ Theme, Problem 번호를 선택하고, 함수 부분을 복사하여 코드를 �
         var code = document.getElementById('code').value;
         document.getElementById("out").innerHTML = ``;
 
-        while code.indexOf("<") != -1
+        while (code.indexOf("<") != -1)
             code = code.replace("<", "&lt;");
         
-        while code.indexOf(">") != -1
+        while (code.indexOf(">") != -1)
             code = code.replace(">", "&gt;");
 
         if(code.includes("print")) {
