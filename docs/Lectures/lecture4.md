@@ -17,7 +17,28 @@ nav_exclude: false
 - - -     
 
 ## Booleans
-저번 단원에서 명제의 참또는 거짓으로 코드의 흐름을 바꾸는 방법에 대해 알아보았습니다. 어떤 명제를 코드에 활용할때, 그 명제의 참 여부를 변수로 사용할 수 있는 data tyoe이 있습니다. 바로 Boolean 변수 입니다.        
+저번 단원에서 명제의 참또는 거짓으로 코드의 흐름을 바꾸는 방법에 대해 알아보았습니다. 어떤 명제를 코드에 활용할때, 그 명제의 참 여부를 변수로 사용할 수 있는 data type이 있습니다. 바로 Boolean 변수 입니다.        
+
+Boolean 변수는 결국 조건문입니다. 즉, 다음과 같이 조건문이 사용되는 곳에는 모두 사용 될 수 있습니다. 
+
+```python
+if True:
+    print(".")
+```
+또한, 변수 타입인 만큼 변수에 값을 저장할 수도 있습니다. 
+
+```python
+s = True
+if s:
+    print(".")
+```
+함수의 리턴에 사용할 수도 있죠. 
+
+```python
+def is_zero(a):
+    return a==0
+print(is_zero(0)) # Output: True
+```
 
 Boolean 변수는 둘 중 하나의 값을 가집니다. True와 False입니다. Boolean 변수를 단순 True, False가 아닌 방법으로 표현하는 방법은 나중에 더 자세히 알아보도록 하겠습니다. 
 
@@ -33,8 +54,6 @@ else:
 Boolean 변수의 표현 과정에서, 다음과 같은 실수를 많이들 합니다. 컴퓨터는 융통성이 없으므로, 꼭 True, False 형식을 맞춰주셔야 합니다.
 - "True", "False"
 - true, false
-
-
 
 ## Boolean 변수의 형태와 연산자
 Boolean 변수는 기본적으로 True, False의 값을 가지지만, 가지는 형태는 이보다 다양합니다. 대표적의 예로는
@@ -78,14 +97,5 @@ print(a==0 or b==0)
 print(not a==0)
 print(a==0 and (b==1 or c==3))
 ```
-코드를 Boolean expression의 가공으로 코드를 많이 간단하게 만들 수 있습니다. 또한, 복잡한 Boolean expression이 나오면 헷갈리거나 실수 할 수 있으니 순서대로 차근차근 문제를 해결하시면 될 것 같습니다. 
+코드를 Boolean expression의 가공으로 코드를 많이 간단하게 만들 수 있습니다. 또한, 복잡한 Boolean expression이 나오면 헷갈리거나 실수 할 수 있으니 순서대로 차근차근 문제를 해결하시면 될 것 같습니다.
 
-## Boolean의 활용
-
-```python
-elif <조건>:
-    <참일 때 실행할 내용 1>
-    <참일 때 실행할 내용 2>
-    ...
-<조건문 외부>
-```
