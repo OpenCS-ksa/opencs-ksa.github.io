@@ -51,15 +51,15 @@ else:
 위 코드는 Boolean 변수의 예시 중 하나입니다. 
 
 {: .warning}
-Boolean 변수의 표현 과정에서, 다음과 같은 실수를 많이들 합니다. 컴퓨터는 융통성이 없으므로, 꼭 True, False 형식을 맞춰주셔야 합니다.
-- "True", "False"
-- true, false
+> Boolean 변수의 표현 과정에서, 다음과 같은 실수를 많이들 합니다. 컴퓨터는 융통성이 없으므로, 꼭 True, False 형식을 맞춰주셔야 합니다.
+> - "True", "False"
+> - true, false
 
 ## Boolean 변수의 형태
 Boolean 변수는 기본적으로 True, False의 값을 가지지만, 가지는 형태는 이보다 다양합니다. 대표적의 예로는
-> Boolean expression     
-> 0,1
-> True, False
+> Boolean expression                
+> 0,1           
+> True, False           
 등이 있습니다. 
 
 먼저, 비교 연산자들을 사용하여 Boolean Expression 이라는 것을 만들 수 있습니다. 아래와 같이 비교문을 리턴하면 그것이 참인지를 Boolean으로 리턴해줍니다. 
@@ -83,11 +83,9 @@ if 1:
 ## Boolean expression의 연산자
 위에서 말한 Boolean exoression을 논리 연산자를 사용하여 원하는 형태로 가공할 수 있습니다. 
 
-> not: True를 False로, False를 True로 바꿔줍니다. 
-> and: 둘다 만족하면 True, 아니면 False를 리턴해줍니다.
-> or: 하나만이라도 만족하면 True를, 아니면 False를 리턴해줍니다.
-> (): 위계도를 수동적으로 정해줍니다. 
-
+> not: True를 False로, False를 True로 바꿔줍니다.           
+> and: 둘다 만족하면 True, 아니면 False를 리턴해줍니다.         
+> or: 하나만이라도 만족하면 True를, 아니면 False를 리턴해줍니다.            
 ```python
 a=0
 b=1
