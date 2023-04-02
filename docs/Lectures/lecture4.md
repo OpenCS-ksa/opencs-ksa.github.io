@@ -59,7 +59,7 @@ else:
 Boolean 변수는 기본적으로 True, False의 값을 가지지만, 가지는 형태는 이보다 다양합니다. 대표적의 예로는
 > Boolean expression                
 > 0,1           
-> True, False                    
+> True, False                     
 등이 있습니다. 
 
 먼저, 비교 연산자들을 사용하여 Boolean Expression 이라는 것을 만들 수 있습니다. 아래와 같이 비교문을 리턴하면 그것이 참인지를 Boolean으로 리턴해줍니다. 
