@@ -174,8 +174,10 @@ list (9주차 내용), class 객체 (CS2 내용), dict, set 같은 변수였다�
 저런 코드로 그 값을 바꿀 수 있습니다.           
 
 이것은 파이썬이 **Call By Assignment**라는 체계를 사용하기 때문입니다.          
-이 체계는 **int, float, str 등은 Call By Value**,           
-**list, class 객체 등은 Call By Reference** 체계를 사용합니다.          
+이 체계는 마치 **int, float, str 등은 Call By Value**,           
+**list, class 객체 등은 Call By Reference** 체계처럼 동작합니다.            
+물론 엄밀하게 말하면 진짜로 Call By Value 또는 Call By Reference 인 것은 아닙니다.         
+하지만 파이썬의 메모리 관리 체계 때문에 위 방식과 비슷하게 동작하죠.        
 
 1. **Call By Value**            
 이 방식은 매개 변수에 값을 전달 할 때            
